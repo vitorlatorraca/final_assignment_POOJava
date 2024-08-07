@@ -1,0 +1,51 @@
+/* Root style */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #2c3e50;
+    -fx-padding: 20px;
+    -fx-text-fill: #ecf0f1;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, #333, 10, 0, 0, 1);
+}
+
+/* Combo Boxes */
+.combo-box {
+    -fx-background-color: #34495e;
+    -fx-border-color: #ecf0f1;
+    -fx-border-radius: 5px;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-effect: dropshadow(gaussian, #aaa, 5, 0, 0, 1);
+    -fx-text-fill: #ecf0f1;
+}
+
+/* List View */
+.list-view {
+    -fx-background-color: #34495e;
+    -fx-border-color: #ecf0f1;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, #aaa, 5, 0, 0, 1);
+    -fx-text-fill: #ecf0f1;
+}
+
+/* Label */
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ecf0f1;
+}
+
+/* Average Rating Label */
+#averageRatingLabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1abc9c;
+}
